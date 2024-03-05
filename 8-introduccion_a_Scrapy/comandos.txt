@@ -1,0 +1,4 @@
+COMANDOS IMPORTANTES
+====================
+
+quit() --> Salir de la shell de scrapy (>>)
