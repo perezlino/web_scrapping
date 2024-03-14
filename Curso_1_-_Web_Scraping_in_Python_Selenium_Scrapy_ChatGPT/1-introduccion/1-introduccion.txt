@@ -1,0 +1,55 @@
+INTRODUCCION
+============
+
+Si has hecho Web scraping por tu cuenta, probablemente sepas que las tres principales librerías de Web scrapie, en Python son 
+BEAUTIFUL SOUP, SELENIUM y SCRAPY, pero ¿cuál es la mejor? Vamos a averiguarlo. 
+
+BEAUTIFUL SOUP
+--------------
+
+- Fácil de aprender
+- No tiene soporte para JavaScript
+- Ineficiente
+
+La primera biblioteca es "Beautiful soup". Beautiful soup puede extraer datos de HTML en archivos XML. Esta biblioteca es la mejor 
+opción para los principiantes. Esto se debe a que Beautiful soup es la librería de web scraping más sencilla en Python. ¿Sólo necesita 
+unas pocas líneas de código para scrapear un sitio web con Beautiful soup y también es fácil de configurar porque sólo hay que instalar 
+la librería requests en la librería Beautiful soup. Y con esto puedes empezar a scrapear un sitio web. Desafortunadamente, Beautiful soup 
+no tiene soporte para sitios web manejados por JavaScript. Esto es una gran desventaja porque hoy en día muchos sitios web ejecutan 
+JavaScript. Además Beautiful soup es ineficiente y tiene algunas dependencias que hacen complicado transferir un código entre proyectos. 
+
+SELENIUM
+--------
+
+- Funciona con Javascript
+- Más fácil de aprender que Scrapy
+- Lento
+
+A continuación, tenemos Selenium. Selenium en realidad no fue diseñado para el web scraping. De hecho, Selenium es un Web driver diseñado 
+para renderizar páginas Web para la automatización de pruebas de aplicaciones Web. Esto hace que Selenium sea ideal para el web scraping 
+porque muchos sitios web se basan en JavaScript para crear contenido dinámico en la página. Así que podemos decir que Selenium es una de 
+las mejores librerías para el scraping de sitios web basados en JavaScript. Otra ventaja de Selenium es que es más fácil de aprender que 
+Scrapy. Desafortunadamente, Selenium es una web lenta. El scraping con Selenium es más lento que el HTTP request al navegador web porque 
+todos los scripts presentes en la página web serán ejecutados. Sin embargo, si no es nuestra máxima prioridad, Selenium será una buena 
+opción.
+
+SCRAPY
+------
+
+- Más difícil de aprender
+- Rápido
+- El framework más completo
+
+Por último, tenemos Scrapy. Un Scrapy es un framework de web scrapping construido especialmente para web scrapping y escrito enteramente 
+en Python. Es sin duda la herramienta de web scrapping más completa en Python. Desafortunadamente, Scrapy es más difícil de aprender que 
+Selenium o Beautiful soup. Dicho esto, una de las mayores ventajas de Scrapy es la velocidad, ya que es un Scrapy síncrono "..." no tiene 
+que esperar para hacer requests de uno en uno, sino que puede hacer requests en paralelo. Esto aumenta la eficiencia, lo que hace que 
+Scrapy sea eficiente en memoria y CPU comparado con las anteriores herramientas de web scrapping. Además, Scrapy es el framework más 
+completo en Python. Puedes almacenar datos fácilmente en bases de datos, crear crullers y hacer más cosas con Scrapy. 
+
+RESUMEN
+-------
+
+Entonces, ¿cuál es la mejor? Diré que cada herramienta de web scrapping satisface una necesidad específica. Por ejemplo, Beautiful soup es 
+ideal para principiantes. Selenium será bueno para pequeños proyectos que necesitan scrapear sitios web manejados por JavaScript, mientras 
+que Scrapy será genial para grandes proyectos donde la velocidad es la prioridad. 
