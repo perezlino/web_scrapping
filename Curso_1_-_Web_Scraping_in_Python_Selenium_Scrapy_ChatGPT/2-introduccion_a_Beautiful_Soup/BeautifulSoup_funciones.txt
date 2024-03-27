@@ -1,0 +1,10 @@
+Funciones BeautifulSoup
+=======================
+
+.find()     ---> Devuelve un elemento
+.find_all() ---> Devuelve una lista
+.text       ---> Devuelve el texto
+-----------------------------------
+.get_text() ---> Devuelve el texto
+Con "strip=True" eliminamos los espacios en blanco de la izquierda como el de la derecha que tenga cada palabra
+.get_text(strip=True, separator=' ')
